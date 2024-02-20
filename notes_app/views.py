@@ -11,7 +11,7 @@ from .models import Note, NoteVersion
 
 # Home view
 def home(request):
-    return HttpResponse("Welcome to the Notes App!")
+    return HttpResponse("Welcome to the Notes App by SivaSai Mundlapati !")
 
 def api_overview(request):
     return HttpResponse("API Overview")

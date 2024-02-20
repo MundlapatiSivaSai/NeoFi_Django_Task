@@ -2,6 +2,10 @@
 
 This repository contains the Django backend for the NeoFi note-taking application. It's designed to provide a RESTful API for managing notes, including functionalities such as user authentication, note creation, sharing, and accessing version history.
 
+## Demo
+
+Check out the live demo of the application: [NeoFi Django Task Demo](https://neofibysiva.onrender.com/)
+
 ## Features
 
 - User authentication (signup and login)
@@ -79,6 +83,7 @@ Explain how to run the automated tests for this system.
 python manage.py test
 ```
 
+
 ## Authors
 
-- **Mundlapati Siva Sai** - *Initial work* - [MundlapatiSivaSai](https://github.com/MundlapatiSivaSai)
+- **Mundlapati Siva Sai** -

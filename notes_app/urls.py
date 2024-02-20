@@ -1,7 +1,11 @@
 from django.urls import path
-from .views import NoteList, NoteDetail
+from . import views
 
 urlpatterns = [
-    path('notes/', NoteList.as_view(), name='note-list'),
-    path('notes/<int:pk>/', NoteDetail.as_view(), name='note-detail'),
+    path('', views.api_overview, name='api_overview'),
+    path('signup', views.signup_view, name='signup'),
+    path('login', views.login_view, name='login'),
+    path('notes/create', views.create_note_view, name='create_note'),
+    path('notes/share', views.share_note_view, name='share_note'),
+    path('notes/version-history/<int:id>', views.get_note_version_history, name='note_version_history'),
 ]

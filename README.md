@@ -71,8 +71,6 @@ A step-by-step series of examples that tell you how to get a development environ
 - **Share Note**: `POST /api/notes/share`
 - **Note Version History**: `GET /api/notes/version-history/{id}`
 
-Detailed API documentation and usage examples are provided in the [docs](docs) folder.
-
 ## Running the Tests
 
 Explain how to run the automated tests for this system.
@@ -80,10 +78,6 @@ Explain how to run the automated tests for this system.
 ```
 python manage.py test
 ```
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/MundlapatiSivaSai/NeoFi_Django_Task/tags).
 
 ## Authors
 
